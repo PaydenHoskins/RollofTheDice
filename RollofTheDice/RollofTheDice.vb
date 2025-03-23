@@ -12,8 +12,8 @@ Public Class RollofTheDice
     Sub DiceCounter()
         'Test the randomness of the dice rolls
         Dim RollCounter(12) As Integer
-        Dim headerRow
-        Dim dataRow
+        Dim headerRow As String
+        Dim dataRow As String
         For i = 1 To 1000
             RollCounter(RandomNumber(1, 12)) += 1
         Next
